@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Stage One Task</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navbar -->
+      <nav>
+        <h3>Stage One</h3>
+        <div>
+          <a href="#goals">Goals</a>
+          <a href="#footerLinks">Links</a>
+        </div>
+      </nav>
+      <section class="intro">
+        <div class="time">
+          <p data-testid="currentDay" id="currentDay"></p>
+          <p data-testid="currentTimeUTC" id="currentTimeUTC"></p>
+        </div>
+        <div class="profile">
+          <img
+            src="slackProfile.png"
+            data-testid="slackProfilePicture"
+            id="slackPic"
+            alt=""
+          />
+          <section class="profileDetails">
+            <p>Name: Olowe Michael olutomiwa</p>
+            <p data-testid="slackDisplayName" id="slackDisplayName">
+              Slack id : Maiqel
+            </p>
+            <p id="slackEmail" data-testid="slackEmail">
+              Email : michaelolowe321@gmail.com
+            </p>
+          </section>
+        </div>
+      </section>
+
+      <section class="goals" id="goals">
+        <h3 class="goals-header">2-Year Plan</h3>
+        <div class="goal">
+          <h4>July-August 2024</h4>
+          <hr />
+          <p>Complete HNG 11 as a finalist</p>
+        </div>
+        <div class="goal">
+          <h4>September-December 2024</h4>
+          <hr />
+          <p>
+            Complete tutorials on Vanilla Javascript, Tailwindcss, ReactJS,
+            VueJS, Nextjs
+          </p>
+        </div>
+        <div class="goal">
+          <h4>January - March 2025</h4>
+          <hr />
+          <p>
+            Build my portfolio with small projects, keep learning, start
+            applying for junior roles
+          </p>
+        </div>
+        <div class="goal">
+          <h4>April-August 2025</h4>
+          <hr />
+          <p>
+            Secure a position as a junior frontend developer, contribute to open
+            source projects
+          </p>
+        </div>
+        <div class="goal">
+          <h4>September - December 2025</h4>
+          <hr />
+          <p>
+            Start my to become a fullstack developer by learning PHP, a backend
+            landuage, and its framework laravel.
+          </p>
+        </div>
+        <div class="goal">
+          <h4>January -March 2026</h4>
+          <hr />
+          <p>
+            Continue learning backend languages, start learning mobile
+            development as well as applying for senior developer roles
+          </p>
+        </div>
+        <div class="goal">
+          <h4>April - July 2026</h4>
+          <hr />
+          <p>
+            Secure a high paying senior developer position / start my own
+            company
+          </p>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footerLinks" id="footerLinks">
+          <p>
+            Support HNG!! :
+            <a href="https://hng.tech/learn" data-testid="hngLink" id="hngLink"
+              >https://hng.tech/learn</a
+            >
+          </p>
+          <p>
+            Keyword Link :
+            <a
+              data-testid="keywordLink"
+              href="http://keyword.dog"
+              id="keywordLink"
+              >http://keyword.dog</a
+            >
+          </p>
+          <p>
+            Scrape any Link:
+            <a
+              href="https://scrapeanyweb.site/"
+              data-testid="scrapeanywebLink"
+              id="scrapeanywebLink"
+              >https://scrapeanyweb.site/</a
+            >
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
